@@ -24,50 +24,6 @@ body{
         0 0 200px #0ebeff;
 }
 
-/* @keyframes move {
-	from{
-		text-shadow: 0 0 10px #fff, 0 0 40px #fff,
-		  0 0 70px #fff, 0 0 100px #fff, 0 0 150px #fff;
-	  }
-	to {
-		text-shadow: 0 0 10px rgb(46, 48, 177), 0 0 15px #fff, 0 0 40px #228dff, 0 0 75px #228dff, 0 0 130px #228dff ;
-	  }
-	} */
-
-/* .header h1:hover {
-	text-shadow: 
-        0 0 10px #0ebeff,
-        0 0 20px #0ebeff,
-        0 0 50px #0ebeff,
-        0 0 100px #0ebeff,
-        0 0 200px #0ebeff
-} */
-
-/* .header h1::before {
-	content: ' ';
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	
-    } */
-
-    /* .header h1::after {
-		content: "";
-        position: absolute;
-        background: radial-gradient(circle, #fff, #000 50%);
-        background-size: 25% 25%;
-        mix-blend-mode: color-dodge;
-        animation: mix 8s linear infinite;
-    } */
-
-/* @keyframes mix {
-    to {
-        transform: translate(50%, 50%);
-    }
-} */
-
 .mySlides{
 	display:none;
 	margin-bottom: 40px;
@@ -145,7 +101,7 @@ body{
 
 .nav a {
 	border-bottom: 2px solid transparent;
-	transition: all 3s cubic-bezier(.175,.885,.32,1.275);
+	transition: all 1s cubic-bezier(.175,.885,.32,1.275);
 }
 
 .ul a:link, .ul a:visited
@@ -161,8 +117,6 @@ body{
 
 .ul a:hover, .ul a:active
 {
-	/* text-decoration: underline;
-	text-decoration-color: pink; */
 	border-bottom-color: pink;
 	text-shadow: 
         0 0 10px #0ebeff,
@@ -194,8 +148,6 @@ body{
 .my p:hover {
 	text-shadow: 
         0 0 10px rgb(4, 0, 255);
-        /* 0 0 50px #0ebeff, */
-        /* 0 0 200px #0ebeff */
 }
 
 
@@ -225,20 +177,16 @@ body{
 #skill { 
 	list-style: none;
 	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
-	/* margin: 20px auto 0; */
 	position: relative;
 	line-height: 2em;
-	/* padding: 30px 0; */
 	display: flex;
 	flex-wrap: wrap;
 }
 
 #skill { 
-	/* margin-bottom:50px; */
 	display: flex;
 	justify-content: space-between;
 	margin: 0px 190px;
-	/* float: left; */
 }
 
 .list{
@@ -311,7 +259,6 @@ body{
 
 .footera  img:link,img:visited
 {
-	display:block;
 	width:120px;
 	font-weight:bold;
 	color:#fcfafa;
@@ -320,17 +267,22 @@ body{
 }
 
 .footera{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	list-style-type: none;
 	overflow: hidden;
-    margin-left: 490px;
 }
 
-.footera > li {
-	float: left;
+.kin {
+	margin-left: 300px;
 }
 
-.footera > li a {
-	display: block;
+.em{
+	margin-right: 300px;
+}
+
+.footera > a {
   color: rgb(245, 241, 241);
   text-align: center;
   padding: 30px;
@@ -343,7 +295,7 @@ footer{
 }
 
 .footera img {
-	transition: all .4s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 .footera img:hover,img:active
 {
@@ -434,7 +386,6 @@ footer{
 	align-items: flex-start;
 	transform: scale(0.5);
 	align-self: flex-end;
-	/* height: 100px; */
 }
 
 .card-img-top a{
@@ -480,7 +431,3 @@ footer{
   .h-100 {
 	height: 100% !important;
   }
-
-  /* .a {
-	background-color: #0984e3;
-  } */
