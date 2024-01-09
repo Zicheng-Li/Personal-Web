@@ -5,7 +5,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Evan Li',
-  description: 'This is Zicheng s personal website',
+  description: 'This is Zicheng\'s personal website',
+  keywords : 'Evan Li,evan li,Zicheng Li,李梓诚,McMaster University'
 }
 
 export default function RootLayout({ children }) {
