@@ -1,3 +1,3 @@
 export default function Home() {
-    return <p>Dashboard Page</p>;
+    return <p>Dashboard Pe</p>;
 }
