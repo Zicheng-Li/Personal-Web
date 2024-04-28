@@ -1,15 +1,7 @@
 "use client";
 import { useEffect } from "react";
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-  Link,
-  Button,
-} from "@nextui-org/react";
 import Image from "next/image";
-
+import Link from 'next/link';
 export default function Home() {
   //   useEffect(() => {
   // const canvas = document.getElementById('myCanvas') as HTMLCanvasElement;
@@ -48,19 +40,19 @@ export default function Home() {
         <nav style={{maxWidth: '34rem'}} className="flex justify-center items-center bg-opacity-90 backdrop-filter backdrop-blur-lg bg-gray-800 text-white shadow-lg rounded-full py-1 px-2  mx-auto ">
           <ul className="flex list-none p-0 space-x-4">
             <li className="px-4 py-2 hover:bg-gray-700 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-95">
-              <a href="">Me</a>
+              <Link href="">Me</Link>
             </li>
             <li className="px-4 py-2 hover:bg-gray-700 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-95">
-              <a href="/experience">Experience</a>
+              <Link href="/experience">Experience</Link>
             </li>
             <li className="px-4 py-2 hover:bg-gray-700 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-95">
-              <a href="/projects">Projects</a>
+              <Link href="/projects">Projects</Link>
             </li>
             <li className="px-4 py-2 hover:bg-gray-700 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-95">
-              <a href="/notes">Notes</a>
+              <Link href="/notes">Notes</Link>
             </li>
             <li className="px-4 py-2 hover:bg-gray-700 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-95">
-              <a href="/contact">Contact</a>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
