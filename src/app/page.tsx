@@ -27,7 +27,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% flex min-h-screen flex-col items-center justify-between p-24">
+      <main className=" flex min-h-screen flex-col items-center justify-between p-24">
         <p>welcome to my website</p>
       </main>
     </div>
