@@ -28,7 +28,7 @@ export default function Home() {
       </header>
 
       <main className=" flex min-h-screen flex-col items-center justify-between p-24">
-        <p>welcome to my site</p>
+        <p>welcom to my site</p>
       </main>
     </div>
   );
