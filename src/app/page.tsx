@@ -45,7 +45,7 @@ export default function Home() {
   return (
     <div>
       <header className="mt-3">
-        <nav className="flex justify-center items-center bg-opacity-90 backdrop-filter backdrop-blur-lg bg-gray-800 text-white shadow-lg rounded-full py-2 px-4 max-w-2xl mx-auto ">
+        <nav style={{maxWidth: '34rem'}} className="flex justify-center items-center bg-opacity-90 backdrop-filter backdrop-blur-lg bg-gray-800 text-white shadow-lg rounded-full py-1 px-2  mx-auto ">
           <ul className="flex list-none p-0 space-x-4">
             <li className="px-4 py-2 hover:bg-gray-700 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-95">
               <a href="">Me</a>
