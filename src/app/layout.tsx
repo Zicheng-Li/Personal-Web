@@ -25,7 +25,7 @@ export default function RootLayout({
       if (vantaRef.current) {
         VANTA.TOPOLOGY({
           el: vantaRef.current,
-          mouseControls: true,
+          mouseControls: false,
           touchControls: true,
           gyroControls: false,
           minHeight: 200.00,
