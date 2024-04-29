@@ -4,7 +4,6 @@ function Vbackground() {
   const vantaRef = useRef(null);
 
   useEffect(() => {
-    // 确保VANTA全局变量可用
     if (window.VANTA) {
       vantaRef.current = window.VANTA.TOPOLOGY({
         el: "#vanta-background",
@@ -26,7 +25,7 @@ function Vbackground() {
     };
   }, []);
 
-  return <div id="vanta-background" style={{ width: '100%', height: '100vh' }}></div>;
+  return <div id="vanta-background" style={{ position: 'absolute', width: '100%', minHeight: '100vh', zIndex: -1 }} ></div>;
 }
 
 export default Vbackground;
