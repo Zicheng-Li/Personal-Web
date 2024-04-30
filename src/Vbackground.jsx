@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import Navbar  from './components/Navbar.jsx'
 
 function Vbackground() {
   const vantaRef = useRef(null);
@@ -25,7 +26,12 @@ function Vbackground() {
     };
   }, []);
 
-  return <div id="vanta-background" style={{ position: 'absolute', width: '100%', minHeight: '100vh', zIndex: -1 }} ></div>;
+  return <div id="vanta-background" style={{ position: 'absolute', width: '100%', minHeight: '100vh', zIndex: 0 }} >
+    <Navbar />
+
+
+
+  </div>;
 }
 
 export default Vbackground;
