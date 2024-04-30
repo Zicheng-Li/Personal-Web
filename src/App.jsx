@@ -1,7 +1,7 @@
 import React from "react";
 //drop-shadow(0 0 2em #646cffaa);
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Vbackground from "./Vbackground.jsx";
+import Vbackground from "./components/Vbackground.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import ExperiencePage from "./pages/ExperiencePage.jsx";
 import ProjectsPage from "./pages/ProjectsPage.jsx";
