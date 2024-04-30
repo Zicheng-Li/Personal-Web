@@ -7,21 +7,25 @@ import ExperiencePage from './pages/ExperiencePage.jsx'
 import ProjectsPage from './pages/ProjectsPage.jsx'
 import NotesPage from './pages/NotesPage.jsx'
 import ContactPage from './pages/ContactPage.jsx'
+import Navbar from './components/Navbar.jsx'
 const App = () => {
   return (
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' , position: 'relative' }}>
+    <Vbackground />
     
-    <Router>
+    <div style={{ flex: 1, zIndex: 1  }}>
+      <Router>
+        <Navbar />
       <Routes>
-      <Route path="/" element={<Vbackground><HomePage /></Vbackground>} />
-      <Route path="/experience" element={<Vbackground><ExperiencePage /></Vbackground>} />
-      <Route path="/projects" element={<Vbackground><ProjectsPage /></Vbackground>} />
-      <Route path="/notes" element={<Vbackground><NotesPage /></Vbackground>} />
-      <Route path="/contact" element={<Vbackground><ContactPage /></Vbackground>} />
-
+      <Route path="/" element={<HomePage />} />
+      <Route path="/experience" element={<ExperiencePage />} />
+      <Route path="/projects" element={<ProjectsPage />} />
+      <Route path="/notes" element={<NotesPage />} />
+      <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
-    
-
+    </div>
+    </div>
   )
 }
 

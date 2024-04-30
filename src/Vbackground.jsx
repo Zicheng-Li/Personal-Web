@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Navbar  from './components/Navbar.jsx'
 
-function Vbackground({ children }) {
+function Vbackground( ) {
   const vantaRef = useRef(null);
 
   useEffect(() => {
@@ -26,9 +26,8 @@ function Vbackground({ children }) {
     };
   }, []);
 
-  return <div id="vanta-background" style={{ position: 'absolute', width: '100%', minHeight: '100vh', zIndex: 0 }} >
-    <Navbar />
-    {children}
+  return <div id="vanta-background" style={{ position: 'absolute', width: '100%', minHeight: '100vh' , top: 0, left: 0, zIndex: 0 }} >
+    
 
 
   </div>;
