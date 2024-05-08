@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
 
 const HomePage = () => {
   return (
-    <div ><h1>HomePage</h1></div>
+    <div className='raleway-dots-regular' ><h1 class="text-red-500 hover:text-blue-600">HomePage</h1></div>
   )
 }
 
