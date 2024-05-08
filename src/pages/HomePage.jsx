@@ -5,7 +5,8 @@ const HomePage = () => {
   return (
     <div className='raleway-dots-regular' >
       
-      <h2 class="text-red-500 hover:text-blue-600">HomePage</h2>
+      <h5 class="text-red-500 hover:text-blue-600">HomePage</h5>
+      <p class="text-red-500 hover:text-blue-600">now for some</p>
 
     
     
