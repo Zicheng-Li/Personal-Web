@@ -10,7 +10,7 @@ const Navbar = () => {
               <Link to="/">Me</Link>
             </li>
             <li className="px-4 py-2 hover:bg-sky-500 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-90">
-              <Link to="/experience">Experience</Link>
+              <Link to="/experiences">Experiences</Link>
             </li>
             <li className="px-4 py-2 hover:bg-sky-500 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-90">
               <Link to="/projects">Projects</Link>
