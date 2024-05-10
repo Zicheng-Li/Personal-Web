@@ -1,8 +1,10 @@
 import React from 'react';
 import '../App.css';
+import myImg from '../assets/me.JPG';
 
 const HomePage = () => {
   return (
+    <>
     <div className="flex flex-col items-center">
       <h1 style={{ fontSize: "clamp(3.2rem, 0.4rem + 5vw, 13.75rem)" }} className="mt-16 text-white hover:text-blue-500 transition-colors duration-600 ease-in-out   merienda-try ">Hi. I'm Evan.</h1>
       <h1 style={{ fontSize: "clamp(3.2rem, 0.4rem + 5vw, 13.75rem)" }} className="text-white hover:text-cyan-500 transition-colors duration-600 ease-in-out   merienda-try  ">A Developer</h1>
@@ -11,6 +13,22 @@ const HomePage = () => {
       <span className="inline-block transform hover:scale-100">Check Out My Resume</span>  
     </a>
     </div>
+
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-200">
+    <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-center">
+    <img src={myImg} alt="Evan" className="w-48 h-48 rounded-full mr-8"/>
+    <div>
+      <h2 className="text-2xl font-bold mb-2">About Me</h2>
+      <p className="text-gray-700 text-lg">
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+      </p>
+    </div>
+  </div>
+
+    </div>
+    
+    
+    </>
   );
 }
 
