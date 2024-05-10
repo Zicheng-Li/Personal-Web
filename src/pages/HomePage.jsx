@@ -14,13 +14,13 @@ const HomePage = () => {
     </a>
     </div>
 
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-200">
-    <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-center">
+    <div className="flex flex-col items-center justify-center  ">
+    <div className=" p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-center">
     <img src={myImg} alt="Evan" className="w-48 h-48 rounded-full mr-8"/>
     <div>
       <h2 className="text-2xl font-bold mb-2">About Me</h2>
       <p className="text-gray-700 text-lg">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        Seatearchitt.
       </p>
     </div>
   </div>
