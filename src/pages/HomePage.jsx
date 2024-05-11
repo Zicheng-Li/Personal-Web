@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import myImg from '../assets/me.JPG';
-
+import {Card, CardHeader, CardBody, CardFooter} from "@nextui-org/card";
 const HomePage = () => {
   return (
     <>

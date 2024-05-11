@@ -32,6 +32,7 @@ function Vbackground() {
         position: "absolute",
         width: "100%",
         minHeight: "100vh",
+        height: "auto",
         top: 0,
         left: 0,
         zIndex: 0,

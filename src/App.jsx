@@ -15,6 +15,7 @@ const App = () => {
         display: "flex",
         flexDirection: "column",
         minHeight: "100vh",
+        height: "auto",
         position: "relative",
       }}
     >
