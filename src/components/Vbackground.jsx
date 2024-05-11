@@ -29,10 +29,10 @@ function Vbackground() {
     <div
       id="vanta-background"
       style={{
-        position: "absolute",
+        position: "fixed",
         width: "100%",
-        minHeight: "100vh",
-        height: "auto",
+        height: "100%",
+        
         top: 0,
         left: 0,
         zIndex: 0,

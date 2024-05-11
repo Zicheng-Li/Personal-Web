@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import myImg from '../assets/me.JPG';
-import {Card, CardHeader, CardBody, CardFooter} from "@nextui-org/card";
+import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 const HomePage = () => {
   return (
     <>
@@ -14,18 +14,24 @@ const HomePage = () => {
     </a>
     </div>
 
-    <div className="flex flex-col items-center justify-center  ">
-    <div className=" p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-center">
-    <img src={myImg} alt="Evan" className="w-48 h-48 rounded-full mr-8"/>
-    <div>
-      <h2 className="text-2xl font-bold mb-2">About Me</h2>
-      <p className="text-gray-700 text-lg">
-        Seatearchitt.
-      </p>
-    </div>
-  </div>
+    <Card className="py-4">
+      <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+        
+        <h4 className="font-bold text-large">About my</h4>
+        <small className="text-default-500">Me at Lake</small>
 
-    </div>
+      </CardHeader>
+      <CardBody className="overflow-visible py-2 flex-row">
+        <Image
+          alt="Evan"
+          className="object-cover rounded-xl"
+          src={myImg}
+          width={270}
+        />
+        <p className="text-tiny font-bold">I am keen to leverage my full-stack development skills and passion for finance at Wealthsimple, where I can create impactful and innovative solutions. As a regular user of the Wealthsimple app, I am not only familiar with your products but also use them daily in trading stocks, improving my understanding of financial applications.
+        </p>
+      </CardBody>
+    </Card>
     
     
     </>
