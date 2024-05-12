@@ -18,10 +18,10 @@ const HomePage = () => {
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         
         <h4 className="text-3xl font-bold  text-white">About me</h4>
-        <small className="text-white mt-6">Me at Lake Louise, July 2021</small>
+        <small className="text-white mt-9">Me at Lake Louise, July 2021</small>
 
       </CardHeader>
-      <CardBody className=" flex flex-row items-center gap-20 p-3">
+      <CardBody style={{paddingLeft: '14px'}} className="pt-1.5 flex flex-row items-center gap-20 ">
         <Image
           alt="Evan"
           className="flex-shrink-0 w-56 h-56 object-cover rounded-3xl"
