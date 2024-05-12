@@ -14,21 +14,21 @@ const HomePage = () => {
     </a>
     </div>
 
-    <Card style={{ marginTop: '45vh' }} className=" py-5 max-w-2xl mx-auto">
+    <Card style={{ marginTop: '50vh' }} className=" bg-transparent py-5 max-w-2xl mx-auto shadow-lg">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         
-        <h4 className="font-bold text-large">About me</h4>
-        <small className="text-default-500">Me at Lake Louise</small>
+        <h4 className="text-3xl font-bold  text-white">About me</h4>
+        <small className="text-white mt-6">Me at Lake Louise, July 2021</small>
 
       </CardHeader>
-      <CardBody className="flex flex-row items-center gap-8 p-4">
+      <CardBody className=" flex flex-row items-center gap-20 p-3">
         <Image
           alt="Evan"
-          className="flex-shrink-0 w-48 h-48 object-cover rounded-xl"
+          className="flex-shrink-0 w-56 h-56 object-cover rounded-3xl"
           src={myImg}
           width={270}
         />
-        <p className="flex-1 text-tiny font-bold">I am keen to leverage my full-stack development skills and passion for finance at Wealthsimple, where I can create impactful and innovative solutions. As a regular user of the Wealthsimple app, I am not only familiar with your products but also use them daily in trading stocks, improving my understanding of financial applications.
+        <p className="flex-1 text-sm  text-white">I am keen to leverage my full-stack development skills and passion for finance at Wealthsimple, where I can create impactful and innovative solutions. As a regular user of the Wealthsimple app, I am not only familiar with your products but also use them daily in trading stocks, improving my understanding of financial applications.
         </p>
       </CardBody>
     </Card>
