@@ -4,16 +4,17 @@ import 'react-vertical-timeline-component/style.min.css';
 import myImg from '../assets/OPG-logo.jpg';
 import mySVG from '../assets/Axsource.svg';
 import myMaster from '../assets/McMa.svg';
+import '../App.css';
 
 const ExperiencePage = () => {
   return (
-<div className="flex flex-col items-center py-10 mt-8">
+    <div className="flex flex-col items-center py-10 mt-8">
       <div className="w-full max-w-4xl px-4">
         <h1 className='text-white text-3xl font-bold mb-10 text-center'>Education</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            contentStyle={{ background: 'transparent', color: '#fff' }}
+            contentStyle={{ background: 'rgb(2 132 199)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid rgba(255, 255, 255, 0.5)' }}
             date="2021 - present"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', width: '50px', height: '50px', display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'absolute', left: 'calc(50% + 5px)', top: '0' }}
@@ -31,7 +32,7 @@ const ExperiencePage = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'transparent', color: '#fff' }}
+            contentStyle={{ background: 'rgb(2 132 199)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid rgba(255, 255, 255, 0.5)' }}
             date="2024 - present"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', width: '50px', height: '50px', display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'absolute', left: 'calc(50% + 5px)', top: '0' }}
@@ -44,8 +45,8 @@ const ExperiencePage = () => {
           </VerticalTimelineElement>
           
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'transparent', color: '#fff' }}
+            className="vertical-timeline-element--work vertical-timeline-element--last"
+            contentStyle={{ background: 'rgb(2 132 199)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid rgba(255, 255, 255, 0.5)' }}
             date="2023 - 2023"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', width: '50px', height: '50px', display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'absolute', left: 'calc(50% + 5px)', top: '0' }}
