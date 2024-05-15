@@ -21,7 +21,7 @@ const HomePage = () => {
         <small className="text-white mt-9">Me at Lake Louise, July 2021</small>
 
       </CardHeader>
-      <CardBody style={{paddingLeft: '14px'}} className="pt-1.5 flex flex-row items-center gap-20 ">
+      <CardBody style={{paddingLeft: '14px'}} className="pt-1.5 flex flex-row items-center gap-16 ">
         <Image
           alt="Evan"
           className="flex-shrink-0 w-56 h-56 object-cover rounded-3xl"
