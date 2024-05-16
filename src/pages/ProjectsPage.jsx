@@ -14,8 +14,8 @@ const ProjectsPage = () => {
           src="https://nextui.org/images/hero-card-complete.jpeg"
           width={270}
         />
-        <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" className="absolute top-0 right-0 mt-2 mr-2 text-white hover:bg-sky-500 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-90">
-          <i className="fab fa-github fa-lg"></i>
+        <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" className="absolute top-0 right-0 mt-2 mr-2 text-white">
+          <i className="fab fa-github fa-lg bg-transparent hover:bg-sky-500 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-90"></i>
         </a>
       </div>
       <div className="pb-0 pt-2 px-4 flex-col items-start text-left">
@@ -40,8 +40,8 @@ const ProjectsPage = () => {
           src="https://nextui.org/images/hero-card-complete.jpeg"
           width={270}
         />
-        <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" className="absolute top-0 right-0 mt-2 mr-2 text-white hover:bg-sky-500 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-90">
-          <i className="fab fa-github fa-lg"></i>
+        <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" className="absolute top-0 right-0 mt-2 mr-2 text-white ">
+          <i className="fab fa-github fa-lg bg-transparent hover:bg-sky-500 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-90"></i>
         </a>
       </div>
       <div className="pb-0 pt-2 px-4 flex-col items-start text-left">
