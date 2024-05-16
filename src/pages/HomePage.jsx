@@ -28,7 +28,7 @@ const HomePage = () => {
           src={myImg}
           width={270}
         />
-        <p className="flex-1 text-sm  text-white">I am keen to leverage my full-stack development skills and passion for finance at Wealthsimple, where I can create impactful and innovative solutions. As a regular user of the Wealthsimple app, I am not only familiar with your products but also use them daily in trading stocks, improving my understanding of financial applications.
+        <p className="flex-1 text-sm text-default-500  opacity-85" style={{ color: 'white' }}>I am keen to leverage my full-stack development skills and passion for finance at Wealthsimple, where I can create impactful and innovative solutions. As a regular user of the Wealthsimple app, I am not only familiar with your products but also use them daily in trading stocks, improving my understanding of financial applications.
         </p>
       </CardBody>
     </Card>
