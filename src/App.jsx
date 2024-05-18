@@ -22,7 +22,7 @@ const App = () => {
       
 
       <div style={{ flex: 1, zIndex: 1 }}>
-        <Router>
+        <Router basename="/Personal-Web">
           <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />
