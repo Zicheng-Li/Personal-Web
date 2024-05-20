@@ -98,7 +98,7 @@ const ContactPage = () => {
               <h5 className="text-xs tracking-tight font-light opacity-85 text-gray-300">@li1276@mcmaster.ca</h5>
             </div>
           </div>
-          <a href="mailto:li1276@mcmaster.ca" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:li1276@mcmaster.ca" >
             <Button
               className="flex items-center gap-1 mt-2 github-button"
               color="primary"

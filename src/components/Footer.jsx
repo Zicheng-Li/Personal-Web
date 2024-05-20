@@ -16,14 +16,14 @@ function Footer() {
     
     <div className="flex flex-col space-y-4">
     <div style={{color: "rgb(7,142,83)"}} className=' font-medium text-base'>Elsewhere</div>
-      <a href="/github" className="text-slate-200 hover:text-teal-500 transition duration-300 ease-in-out mr-4 text-sm">Github</a>
-      <a href="/linkedin" className="text-slate-200 hover:text-teal-500 transition duration-300 ease-in-out text-sm">LinkedIn</a>
-      <a href="/cv" className="text-slate-200 hover:text-teal-500 transition duration-300 ease-in-out mr-4 text-sm">Resume</a>
+      <a href="https://github.com/Zicheng-Li" target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-teal-500 transition duration-300 ease-in-out mr-4 text-sm">Github</a>
+      <a href="https://www.linkedin.com/in/evan-li-873078256/" target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-teal-500 transition duration-300 ease-in-out text-sm">LinkedIn</a>
+      <a href="https://docs.google.com/gview?url=https://github.com/Zicheng-Li/resume/raw/master/resume.pdf&embedded=true" target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-teal-500 transition duration-300 ease-in-out mr-4 text-sm">Resume</a>
 
     </div>
     <div className="flex flex-col space-y-4">
         <div style={{color: "rgb(7,142,83)"}} className=' font-medium text-base '>Contact</div>
-      <a href="/contact" className="text-slate-200 text-sm hover:text-teal-500 transition duration-300 ease-in-out ">Email</a>
+      <a href="mailto:li1276@mcmaster.ca" className="text-slate-200 text-sm hover:text-teal-500 transition duration-300 ease-in-out ">Email</a>
     </div>
   </div>
   <div className="text-center flex-grow">
