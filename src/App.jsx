@@ -8,6 +8,7 @@ import ProjectsPage from "./pages/ProjectsPage.jsx";
 import NotesPage from "./pages/NotesPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
 const App = () => {
   return (
     <div
@@ -31,6 +32,7 @@ const App = () => {
             <Route path="/notes" element={<NotesPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
+          <Footer />
         </Router>
       </div>
     </div>
