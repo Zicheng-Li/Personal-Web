@@ -3,7 +3,7 @@ import {Card, CardHeader, CardBody, CardFooter, Avatar, Button} from "@nextui-or
 import myImg from '../assets/me.JPG';
 const ContactPage = () => {
   return (
-    <div className="flex flex-col items-center py-10 mt-8">
+    <div className="flex flex-col items-center py-10 mt-5">
       <h1 className="text-white text-3xl font-bold mb-10 text-center">Contact Me</h1>
       <Card className="max-w-[340px] bg-transparent">
         <CardHeader className="justify-between">
@@ -86,6 +86,39 @@ const ContactPage = () => {
             
           </div>
         </CardFooter>
+      </Card>
+
+
+      <Card className="mt-12 min-w-[340px] max-w-[340px] bg-transparent">
+        <CardHeader className="justify-between">
+          <div className="flex gap-5 items-center">
+            <Avatar isBordered radius="full" size="xl" src={myImg} />
+            <div className="flex flex-col gap-1 items-start justify-center">
+              <h4 className="text-xl font-semibold leading-none text-white">Evan Li</h4>
+              <h5 className="text-xs tracking-tight font-light opacity-85 text-gray-300">@li1276@mcmaster.ca</h5>
+            </div>
+          </div>
+          <a href="mailto:li1276@mcmaster.ca" target="_blank" rel="noopener noreferrer">
+            <Button
+              className="flex items-center gap-1 mt-2 github-button"
+              color="primary"
+              radius="full"
+              size="sm"
+              variant="solid"
+              style={{ backgroundColor: 'rgb(14 165 233)', borderColor: 'rgb(14 165 233)'}} 
+            >
+              Send an Email <i className="fa-regular fa-envelope"></i>
+            </Button>
+          </a>
+        </CardHeader>
+        <CardBody className="px-3 py-0 text-small text-default-400">
+          {/* <p className="text-white">
+          Email Me
+          </p> */}
+          <p className=" text-white text-small">Let's chat!</p>
+
+        </CardBody>
+        
       </Card>
     </div>
   )

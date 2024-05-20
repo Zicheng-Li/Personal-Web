@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import myImg from '../assets/me.JPG';
-import myResume from '../assets/resume.pdf';
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 const HomePage = () => {
   return (
