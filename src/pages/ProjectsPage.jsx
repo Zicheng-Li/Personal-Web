@@ -2,7 +2,7 @@ import React from 'react'
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 const ProjectsPage = () => {
   return (
-<div className="flex flex-col items-center py-10 mt-8">
+<div className="flex flex-col items-center py-10 mt-5">
   <h1 className='text-white text-3xl font-bold mb-10 text-center'>My Projects</h1>
   <div className='flex flex-row justify-center items-center gap-4 w-full max-w-6xl mx-auto'>
 

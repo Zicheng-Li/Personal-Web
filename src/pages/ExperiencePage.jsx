@@ -8,8 +8,8 @@ import '../App.css';
 
 const ExperiencePage = () => {
   return (
-    <div className="flex flex-col items-center py-10 mt-8">
-      <div className="w-full max-w-4xl px-4">
+    <div className="flex flex-col items-center py-10 mt-5">
+      <div className="w-full max-w-4xl px-4 ">
         <h1 className='text-white text-3xl font-bold mb-10 text-center'>Education</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
@@ -26,6 +26,11 @@ const ExperiencePage = () => {
             <p>Management, Team Leading</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
+        <div className='flex justify-center'>
+          <i className="fa-solid fa-angles-down mt-20 animate-bounce text-white"></i>
+          </div>
+    
+
       </div>
       <div className="w-full max-w-4xl px-4 mt-[20vh]">
         <h1 className='text-white text-3xl font-bold mb-10 text-center'>Work Experience</h1>

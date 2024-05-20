@@ -9,7 +9,7 @@ function Footer() {
       }
 
   return (
-    <footer className="bg-transparent text-white py-4">
+    <footer className="bg-transparent text-white py-4 mt-10">
   <div className="container mx-auto flex flex-row justify-evenly items-start px-4">
   <div className="flex flex-col space-y-4 items-start">
     <div style={{color: "rgb(7,142,83)"}} className=' font-medium text-base'>Go To</div>
