@@ -10,7 +10,7 @@ export default {
     extend: {
       
       fontFamily: {
-        'sans': ['Roboto', 'sans-serif'],
+        'sans': ['Inconsolata', 'monospace'],
       },
       
     },
