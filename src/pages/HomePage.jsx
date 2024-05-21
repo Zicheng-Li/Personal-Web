@@ -30,7 +30,7 @@ const HomePage = () => {
           src={myImg}
           width={270}
         />
-          <div className="flex-1   text-default-500  opacity-85" style={{ color: 'white',fontSize: '15px',lineHeight: '1.25rem' }}>
+          <div className="flex-1   text-default-500  opacity-100" style={{ color: 'white',fontSize: '15px',lineHeight: '1.25rem' }}>
           <p className='mb-5'>
           My name is Evan Li, a third-year Computer Science student at McMaster University, where I've developed strong computer skills in areas like data structures, cryptography, and computer architecture.
           </p>
