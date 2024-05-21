@@ -23,15 +23,27 @@ const HomePage = () => {
         <small className="text-white mt-9">Me at Lake Louise, July 2021</small>
 
       </CardHeader>
-      <CardBody style={{paddingLeft: '14px'}} className="pt-1.5 flex flex-row items-center gap-16 ">
+      <CardBody style={{paddingLeft: '14px'}} className="pt-1.5 flex flex-row items-start gap-14 ">
         <Image
           alt="Evan"
           className="flex-shrink-0 w-56 h-56 object-cover rounded-3xl"
           src={myImg}
           width={270}
         />
-        <p className="flex-1 text-sm text-default-500  opacity-85" style={{ color: 'white' }}>I am keen to leverage my full-stack development skills and passion for finance at Wealthsimple, where I can create impactful and innovative solutions. As a regular user of the Wealthsimple app, I am not only familiar with your products but also use them daily in trading stocks, improving my understanding of financial applications.
-        </p>
+          <div className="flex-1   text-default-500  opacity-85" style={{ color: 'white',fontSize: '15px',lineHeight: '1.25rem' }}>
+          <p className='mb-5'>
+          My name is Evan Li, a third-year Computer Science student at McMaster University, where I've developed strong computer skills in areas like data structures, cryptography, and computer architecture.
+          </p>
+          <p className='mb-5'>
+          As a Full-Stack Developer, I've built projects including EL's Online Shop, a dynamic e-commerce site featuring Angular, Spring Boot, Okta's Auth0, and Stripe. I've also worked at AXSource on AI development and hold Microsoft certifications in Azure AI and Dynamics 365.
+      </p>
+      <p className='mb-5'>
+      I started an internship at Ontario Power Generation in January 2024, creating a dashboard that saved the company over $1 million. 
+      </p>
+      <p className='mb-5'>
+      I'm passionate about AI, BCI, blockchain, and Web3 in my free time. Connect with me to discuss technology trends or collaborations!
+      </p>
+        </div>
       </CardBody>
     </Card>
     
