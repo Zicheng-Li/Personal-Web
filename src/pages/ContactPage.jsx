@@ -45,7 +45,7 @@ const ContactPage = () => {
       </Card>
 
 
-      <Card className="mt-16 min-w-[340px] max-w-[340px] bg-transparent">
+      <Card className="mt-12 min-w-[340px] max-w-[340px] bg-transparent">
         <CardHeader className="justify-between">
           <div className="flex gap-5 items-center">
             <Avatar isBordered radius="full" size="xl" src={myImg} />
