@@ -39,7 +39,7 @@ const ExperiencePage = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(2 132 199)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid rgba(255, 255, 255, 0.5)' }}
-            date="2024 - present"
+            date="Jan 2024 - present"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', width: '50px', height: '50px', display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'absolute', left: 'calc(50% + 5px)', top: '0' }}
             icon={<i className="fas fa-briefcase" style={{ fontSize: '25px' }} />}
           >
@@ -54,7 +54,7 @@ const ExperiencePage = () => {
             className="vertical-timeline-element--work vertical-timeline-element--last"
             contentStyle={{ background: 'rgb(2 132 199)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid rgba(255, 255, 255, 0.5)' }}
-            date="2023 - 2023"
+            date="July 2023 - August 2023"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', width: '50px', height: '50px', display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'absolute', left: 'calc(50% + 5px)', top: '0' }}
             icon={<i className="fas fa-briefcase" style={{ fontSize: '25px' }} />}
           >
