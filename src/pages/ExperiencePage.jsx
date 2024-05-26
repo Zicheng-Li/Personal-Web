@@ -21,9 +21,9 @@ const ExperiencePage = () => {
             icon={<i className="fas fa-school" style={{ fontSize: '25px' }} />}
           >
             <img src={myMaster} alt="Description" style={{ width: '100%', marginTop: '10px' }} />
-            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, ON</h4>
-            <p>Management, Team Leading</p>
+            <h3 className="vertical-timeline-element-title">Bachelor of Applied Science (BASc), Computer Science, Co-op</h3>
+            <h4 className="vertical-timeline-element-subtitle">Sep 2021 - Apr 2026</h4>
+            <p>GPA of 3.8 </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
         <div className='flex justify-center'>
@@ -44,9 +44,10 @@ const ExperiencePage = () => {
             icon={<i className="fas fa-briefcase" style={{ fontSize: '25px' }} />}
           >
             <img src={myImg} alt="Description" style={{ width: '100%', marginTop: '10px' }} />
-            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-            <p>Creative Direction, User Experience, Visual Design, Project Management, Team Leading</p>
+            <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Bowmanville, Canada</h4>
+            <p>Developed a full-stack web application using Angular and .NET, revolutionizing the nuclear operation team’s dashboard, enhanced data visualization and access for power generation and crew metrics, reduc- ing retrieval times from 10 minutes to instant. Significantly improved operational efficiency and achieved cost savings of over $1M.</p>
+            <p>Automated a manual 2-hour equipment check process to just 1 minute using Python, pandas, and openpyxl for data processing, achieving a 120-fold increase in operational efficiency with a user-friendly Tkinter interface.</p>
           </VerticalTimelineElement>
           
           <VerticalTimelineElement
@@ -58,9 +59,10 @@ const ExperiencePage = () => {
             icon={<i className="fas fa-briefcase" style={{ fontSize: '25px' }} />}
           >
             <img src={mySVG} alt="Description" style={{ width: '100%', marginTop: '10px' }} />
-            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, ON</h4>
-            <p>Management, Team Leading</p>
+            <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Oakville, Canada</h4>
+            <p>Designed and implemented a multi-platform chatbot using Power Virtual Agent, seamlessly integrat- ing with Microsoft Teams and web platforms; utilized Power Automate for business logic to automate the transfer of Invoice, New Customer, and Purchase Order Entry data to D365, enhancing customer data processing efficiency.</p>
+            <p>Developed a mobile application using Power Apps, enabling users to capture images of items; inte- grated Azure’s Computer Vision API for image detection, streamlining the asset recognition process.</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
