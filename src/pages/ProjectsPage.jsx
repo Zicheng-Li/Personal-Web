@@ -14,8 +14,8 @@ const ProjectsPage = () => {
           src={ELshop}
           width={270}
         />
-        <a href="https://github.com/Zicheng-Li/Angular-ecommerce-frontend" target="_blank" rel="noopener noreferrer" className="absolute top-0 right-0 mt-2 mr-2 text-white">
-          <i className="fab fa-github fa-lg bg-transparent hover:bg-sky-500 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-90"></i>
+        <a href="https://github.com/Zicheng-Li/Angular-ecommerce-frontend" target="_blank" rel="noopener noreferrer" className="absolute top-0 right-0 mt-2 mr-2 ">
+          <i className="fa-brands fa-github fa-lg  hover:bg-sky-500 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-90"></i>
         </a>
       </div>
       <div className="pb-0 pt-2 px-4 flex-col items-start text-left">
@@ -41,20 +41,20 @@ const ProjectsPage = () => {
           src={ELshop}
           width={270}
         />
-        <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer" className="absolute top-0 right-0 mt-2 mr-2 text-white ">
+        <a href="https://github.com/Zicheng-Li/Math_helper" target="_blank" rel="noopener noreferrer" className="absolute top-0 right-0 mt-2 mr-2  ">
           <i className="fab fa-github fa-lg bg-transparent hover:bg-sky-500 rounded-full transition duration-300 ease-in-out transform hover:scale-105 active:scale-90"></i>
         </a>
       </div>
       <div className="pb-0 pt-2 px-4 flex-col items-start text-left">
-        <h4 className="font-bold text-large" style={{ color: 'white' }}>EL's Online Shop</h4>
+        <h4 className="font-bold text-large" style={{ color: 'white' }}>Math Assistant</h4>
         <small className="flex-1 text-default-500 font-light opacity-85" style={{ color: 'white' }}>
-          This repository contains the frontend code for EL's Online Shop, a dynamic e-commerce platform developed using Angular 16.
+        This Hackathon project targets high school students struggling with graphs and Calculus. It features a calculator that graphs various functions tailored to user needs, with a clear and user-friendly GUI. The project is built using Java and the Swing framework to design both the interface and the algorithms.
         </small>
         <div className="flex mt-4 space-x-2 text-sm">
-          <span className="text-blue-500 ">#react</span>
-          <span className="text-green-500 ">#react-router</span>
-          <span className="text-red-500 ">#chakra-ui</span>
-          <span className="text-yellow-500 ">#coingecko-api</span>
+          <span className="text-sky-500 ">#Java</span>
+          <span className="text-emerald-500 ">#Swing</span>
+          <span className="text-orange-500 ">#Java Web Start</span>
+         
         </div>
       </div>
     </div>
@@ -74,10 +74,10 @@ const ProjectsPage = () => {
           This repository contains the frontend code for EL's Online Shop, a dynamic e-commerce platform developed using Angular 16.
         </small>
         <div className="flex mt-4 space-x-2 text-sm">
-          <span className="text-blue-500 ">#react</span>
-          <span className="text-green-500 ">#react-router</span>
-          <span className="text-red-500 ">#chakra-ui</span>
-          <span className="text-yellow-500 ">#coingecko-api</span>
+          <span className="text-blue-500 ">#React</span>
+          <span className="text-green-500 ">Medusajs</span>
+          <span className="text-red-500 ">#Next.js</span>
+          {/* <span className="text-yellow-500 ">#coingecko-api</span> */}
         </div>
       </div>
     </div>
