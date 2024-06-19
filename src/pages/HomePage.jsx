@@ -2,12 +2,40 @@ import React from 'react';
 import '../App.css';
 import myImg from '../assets/me.JPG';
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
+import { motion } from 'framer-motion';
 const HomePage = () => {
+
+  const an={
+    hidden: {
+      y: -50,
+      opacity: 0,
+    },
+    show: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        type: "spring",
+        stiffness: 50,
+        velocity: 2,
+        duration: 1.25,
+        delay: 0.5,
+      },
+    },
+  }
+
   return (
     <>
     <div className="flex flex-col items-center">
+      
+      <motion.div   
+    initial="hidden" 
+  animate="show"
+  variants={an}>
+
       <h1 style={{ fontSize: "clamp(3.2rem, 0.4rem + 5vw, 13.75rem)" }} className="mt-16 text-white hover:text-blue-500 transition-colors duration-600 ease-in-out   merienda-try ">Hi. I'm Evan.</h1>
       <h1 style={{ fontSize: "clamp(3.2rem, 0.4rem + 5vw, 13.75rem)" }} className="text-white hover:text-cyan-500 transition-colors duration-600 ease-in-out   merienda-try  ">A Developer</h1>
+      </motion.div>
+      
       <p className="mt-5 merienda-try text-orange-500 hover:text-emerald-600 transition-colors duration-600 ease-in-out">A passionate Full-Stack Developer and AI Enthusiast.</p>
       <a href="https://docs.google.com/gview?url=https://github.com/Zicheng-Li/resume/raw/master/resume.pdf&embedded=true" target="_blank" rel="noopener noreferrer" className=" merienda-try mt-16 bg-gradient-to-r from-stone-400 via-stone-500 to-stone-600 hover:from-sky-400 hover:via-sky-500 hover:to-sky-700 text-white  py-2 px-4 rounded-full transition-all duration-300 ease-in-out shadow-none hover:shadow-xl active:scale-110 ">
       <span className="inline-block transform hover:scale-100">Check Out My Resume</span>  
@@ -16,6 +44,10 @@ const HomePage = () => {
 
     </div>
 
+    <motion.div variants={an}
+        initial="hidden" 
+        animate="show"
+    >
     <Card style={{ marginTop: '50vh' }} className=" bg-transparent py-5 max-w-2xl mx-auto shadow-lg">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         
@@ -46,7 +78,7 @@ const HomePage = () => {
         </div>
       </CardBody>
     </Card>
-    
+    </motion.div>
     
     </>
   );
