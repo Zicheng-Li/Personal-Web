@@ -1,10 +1,38 @@
 import React from 'react'
 import ELshop  from '../assets/ShopLogo.png';
 import MathH  from '../assets/PM.png';
+import { motion } from 'framer-motion';
 const ProjectsPage = () => {
+  const zoomIn = {
+    hidden: {
+      scale: 0.5,
+      opacity: 0,
+    },
+    show: {
+      scale: 1,
+      opacity: 1,
+      transition: {
+        type: "tween",
+        delay: 0.3,
+        duration: 0.8,
+        ease: "easeOut",
+      },
+    },
+  };
+
+
   return (
 <div className="flex flex-col items-center py-10 mt-5">
   <h1 className='text-white text-3xl font-bold mb-10 text-center'>My Projects</h1>
+  
+  <motion.div   
+    initial="hidden" 
+  animate="show"
+  variants={zoomIn}>
+    
+    
+    
+
   <div className='flex flex-row justify-center items-start gap-4 w-full max-w-6xl mx-auto'>
 
     <div className="flex flex-col items-center max-w-sm mx-auto shadow-lg bg-transparent py-4">
@@ -83,6 +111,7 @@ const ProjectsPage = () => {
       </div>
     </div>
   </div>
+  </motion.div>
 </div>
 
 

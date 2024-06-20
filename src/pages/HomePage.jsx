@@ -1,27 +1,61 @@
 import React from 'react';
+import { useRef, useEffect } from 'react';
 import '../App.css';
 import myImg from '../assets/me.JPG';
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
-import { motion } from 'framer-motion';
+import { motion,useAnimation, useInView } from 'framer-motion';
 const HomePage = () => {
 
-  const an={
+  const ref = useRef(null);
+  const isInView = useInView(ref);
+  const viewcControl = useAnimation();
+
+  useEffect(() => {
+    if (isInView) {
+      console.log(isInView);
+      viewcControl.start("show");
+    }
+  }
+  , [isInView, viewcControl]);
+
+  const topDown = {
     hidden: {
+      scale: 0.8,  
+      opacity: 0,
       y: -50,
+    },
+    show: {
+      scale: 1,  
+      opacity: 1,
+      y: 0,
+      transition: {
+        type: "spring",
+        stiffness: 100,
+        damping: 20,
+        delay: 0.5
+      },
+    },
+  };
+
+  const downUp={
+    hidden: {
+      x: "up" === "left" ? 100 : "up" === "right" ? -100 : 0,
+      y: "up" === "up" ? 100 : "up" === "down" ? -100 : 0,
       opacity: 0,
     },
     show: {
+      x: 0,
       y: 0,
       opacity: 1,
       transition: {
         type: "spring",
-        stiffness: 50,
-        velocity: 2,
-        duration: 1.25,
-        delay: 0.5,
+        delay: 2,
+        duration: 5,
+        ease: "easeOut",
       },
     },
-  }
+  };
+  
 
   return (
     <>
@@ -30,7 +64,7 @@ const HomePage = () => {
       <motion.div   
     initial="hidden" 
   animate="show"
-  variants={an}>
+  variants={topDown}>
 
       <h1 style={{ fontSize: "clamp(3.2rem, 0.4rem + 5vw, 13.75rem)" }} className="mt-16 text-white hover:text-blue-500 transition-colors duration-600 ease-in-out   merienda-try ">Hi. I'm Evan.</h1>
       <h1 style={{ fontSize: "clamp(3.2rem, 0.4rem + 5vw, 13.75rem)" }} className="text-white hover:text-cyan-500 transition-colors duration-600 ease-in-out   merienda-try  ">A Developer</h1>
@@ -44,9 +78,10 @@ const HomePage = () => {
 
     </div>
 
-    <motion.div variants={an}
+    <motion.div variants={downUp}
+    ref={ref}
         initial="hidden" 
-        animate="show"
+        animate={viewcControl}
     >
     <Card style={{ marginTop: '50vh' }} className=" bg-transparent py-5 max-w-2xl mx-auto shadow-lg">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
