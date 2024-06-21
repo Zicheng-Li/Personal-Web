@@ -1,10 +1,41 @@
 import React from 'react'
 import {Card, CardHeader, CardBody, CardFooter, Avatar, Button} from "@nextui-org/react";
 import myImg from '../assets/me.JPG';
+import { motion } from 'framer-motion';
+
 const ContactPage = () => {
+  
+  const leftRight=(step,delay)=>{
+    return {
+    hidden: {
+      x: step,
+      opacity: 0,
+    },
+    show: {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      transition: {
+        type: "spring",
+        delay: delay,
+        duration: 1,
+        ease: "easeOut",
+      },
+    },
+  }
+};
+  
   return (
     <div className="flex flex-col items-center py-10 mt-5">
       <h1 className="text-white text-3xl font-bold mb-10 text-center">Contact Me</h1>
+      
+      <motion.div
+       initial="hidden" 
+  animate="show"
+  variants={leftRight(-50,0.3)}
+      >
+
+
       <Card className="max-w-[340px] bg-transparent">
         <CardHeader className="justify-between">
           <div className="flex gap-5 items-center">
@@ -43,8 +74,13 @@ const ContactPage = () => {
           
         </CardFooter>
       </Card>
+      </motion.div>
 
-
+      <motion.div
+       initial="hidden" 
+  animate="show"
+  variants={leftRight(-50,0.6)}
+      >
       <Card className="mt-12 min-w-[340px] max-w-[340px] bg-transparent">
         <CardHeader className="justify-between">
           <div className="flex gap-5 items-center">
@@ -87,8 +123,13 @@ const ContactPage = () => {
           </div>
         </CardFooter>
       </Card>
+      </motion.div>
 
-
+      <motion.div
+       initial="hidden" 
+  animate="show"
+  variants={leftRight(-50,0.9)}
+      >
       <Card className="mt-12 min-w-[340px] max-w-[340px] bg-transparent">
         <CardHeader className="justify-between">
           <div className="flex gap-5 items-center">
@@ -120,6 +161,7 @@ const ContactPage = () => {
         </CardBody>
         
       </Card>
+      </motion.div>
     </div>
   )
 }
