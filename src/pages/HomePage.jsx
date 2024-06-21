@@ -32,15 +32,14 @@ const HomePage = () => {
         type: "spring",
         stiffness: 100,
         damping: 20,
-        delay: 0.5
+        delay: 0.3
       },
     },
   };
 
   const downUp={
     hidden: {
-      x: "up" === "left" ? 100 : "up" === "right" ? -100 : 0,
-      y: "up" === "up" ? 100 : "up" === "down" ? -100 : 0,
+      y: 100,
       opacity: 0,
     },
     show: {

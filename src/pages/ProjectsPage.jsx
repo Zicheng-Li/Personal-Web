@@ -3,18 +3,20 @@ import ELshop  from '../assets/ShopLogo.png';
 import MathH  from '../assets/PM.png';
 import { motion } from 'framer-motion';
 const ProjectsPage = () => {
-  const zoomIn = {
+  const buttonTop = {
     hidden: {
-      scale: 0.5,
+      
       opacity: 0,
+      y:50,
     },
     show: {
       scale: 1,
       opacity: 1,
+      y:0,
       transition: {
         type: "tween",
         delay: 0.3,
-        duration: 0.8,
+        duration: 0.5,
         ease: "easeOut",
       },
     },
@@ -28,7 +30,7 @@ const ProjectsPage = () => {
   <motion.div   
     initial="hidden" 
   animate="show"
-  variants={zoomIn}>
+  variants={buttonTop}>
     
     
     
