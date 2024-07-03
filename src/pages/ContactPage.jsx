@@ -68,7 +68,7 @@ const ContactPage = () => {
         </CardBody>
         <CardFooter className="gap-3">
           <div className="flex gap-1">
-            <p className="font-semibold text-white text-small">121</p>
+            <p className="font-semibold text-white text-small">132</p>
             <p className="text-white text-small">Connections</p>
           </div>
           
@@ -97,7 +97,7 @@ const ContactPage = () => {
               radius="full"
               size="sm"
               variant="solid"
-              style={{ backgroundColor: '#000', borderColor: '#000', color: '#fff' }} // 强制覆盖颜色
+              style={{ backgroundColor: '#000', borderColor: '#000', color: '#fff' }} 
             >
               Follow me on <i className="fa-brands fa-github"></i>
             </Button>
